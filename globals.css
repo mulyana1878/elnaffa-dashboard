@@ -1,0 +1,9 @@
+:root { --primary: #232B61; --bg: #f4f6fb; }
+html,body,#__next { height:100%; }
+body { margin:0; font-family: Inter, system-ui, Arial; background:var(--bg); color:#222; }
+.container { display:flex; min-height:100vh; }
+.sidebar { width:260px; background:var(--primary); color:#fff; padding:24px; box-sizing:border-box; }
+.main { flex:1; padding:24px; box-sizing:border-box; }
+.card { background:#fff; padding:12px; border-radius:8px; box-shadow:0 1px 6px rgba(0,0,0,0.06); }
+table { border-collapse:collapse; width:100%; }
+th, td { padding:8px; border:1px solid #eee; text-align:left; }

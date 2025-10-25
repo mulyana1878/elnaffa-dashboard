@@ -1,0 +1,1 @@
+Replace /logo.png with your company logo if you want; default file included.
